@@ -1,0 +1,25 @@
+.main div{
+                    display: none;
+
+}
+.main div:target
+{
+                    display: block;
+                    background-color: blue;
+                    color: aliceblue;
+}
+.div p{
+background-color: aqua;
+}
+p::first-letter
+{
+                    color: blueviolet;
+                    font-size: 30px;
+}
+p::first-line
+{
+                    color: aqua;
+}
+span::first-line{
+                    background-color: chartreuse;
+}
